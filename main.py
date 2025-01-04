@@ -1,17 +1,16 @@
-import numpy as np
-import pandas as pd
+# This is a sample Python script.
 
-data = {
-    "column-a": ["a", "b", "c", "d"],
-    "column-b": [2,5,8,11],
-    "column-c": [1,2,3,4],
-    "column-d": [3,4,5,6],
-    "column-e": [3.0, 4.0, 5.0, 6.0],
-    "column-f": ["h", "i", "j", "k"],
-    "column-g": ["2020-01-01 00:00:00-05:00", "2020-01-02 00:00:00-05:00", "2020-01-03 00:00:00-05:00", "2020-01-04 00:00:00-05:00"],
-    "column-h": ["2020-01-01 00:00:00.000000000", "2020-01-01 00:00:00.000000001", "2020-01-01 00:00:00.000000002", "2020-01-01 00:00:00.000000003"],
-    "column-i": ["True", "False", "False", "True"]
-}
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-df = pd.DataFrame(data)
-print(df)
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
